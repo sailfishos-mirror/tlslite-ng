@@ -1,4 +1,4 @@
-tlslite-ng version 0.8.2 (2025-01-22)
+tlslite-ng version 0.9.0b1 (2025-09-25)
 
 [![GitHub CI](https://github.com/tlsfuzzer/tlslite-ng/actions/workflows/ci.yml/badge.svg)](https://github.com/tlsfuzzer/tlslite-ng/actions/workflows/ci.yml)
 [![Read the Docs](https://img.shields.io/readthedocs/tlslite-ng)](https://tlslite-ng.readthedocs.io/en/latest/)
@@ -61,7 +61,7 @@ Implemented TLS features include:
 * Extended master secret
 * padding extension
 * keying material exporter
-* RSA, RSA-PSS, DSA, ECDSA, and EdDSA certificates
+* RSA, RSA-PSS, DSA, ECDSA, EdDSA, and ML-DSA certificates
 * ticket based session resumption
 * 1-RTT handshake, Hello Retry Request, middlebox compatibility mode,
   cookie extension, post-handshake authentication and KeyUpdate
@@ -621,6 +621,10 @@ Similarly, while delegated credentials have a valid time option, it is not enfor
 
 12 History
 ===========
+
+0.9.0b1 - 2025-09-25
+* support for Delegated Credentials (Ganna Starovoytova)
+* (Experimental) support for ML-DSA certificates in TLS
 
 0.8.2 - 2025-01-22
 * additional test vectors for the RSA implicit rejection mechanism
