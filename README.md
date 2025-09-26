@@ -1,4 +1,4 @@
-tlslite-ng version 0.9.0b1 (2025-09-25)
+tlslite-ng version 0.9.0b2 (2025-09-26)
 
 [![GitHub CI](https://github.com/tlsfuzzer/tlslite-ng/actions/workflows/ci.yml/badge.svg)](https://github.com/tlsfuzzer/tlslite-ng/actions/workflows/ci.yml)
 [![Read the Docs](https://img.shields.io/readthedocs/tlslite-ng)](https://tlslite-ng.readthedocs.io/en/latest/)
@@ -622,7 +622,7 @@ Similarly, while delegated credentials have a valid time option, it is not enfor
 12 History
 ===========
 
-0.9.0b1 - 2025-09-25
+0.9.0b2 - 2025-09-26
 * support for Delegated Credentials (Ganna Starovoytova)
 * (Experimental) support for ML-DSA certificates in TLS
 
